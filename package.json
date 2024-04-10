@@ -1,0 +1,22 @@
+{
+  "name": "javascript-game-sample",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "akashic-sandbox .",
+    "lint": "eslint \"script/**/*.js\" --fix",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@akashic/akashic-sandbox": "^0.28.0",
+    "eslint": "^8.24.0"
+  },
+  "dependencies": {
+    "@akashic-extension/akashic-label": "^3.1.0",
+    "@akashic-extension/akashic-timeline": "^3.2.1"
+  }
+}
